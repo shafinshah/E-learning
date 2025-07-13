@@ -1,0 +1,410 @@
+
+
+
+/*navbar*/
+.Navbar{
+  color: white;
+  height: 5rem;
+ background-color:#000B58;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Menu{
+  font-weight: bold;
+  margin-right: 2rem;
+display: flex;
+margin-top: 2rem;
+
+}
+.Menu a{
+  margin-right: 1rem;
+  margin-top: 0.60rem;
+}
+.Logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.text{
+margin-top: 1rem !important;
+margin-right: 1rem;
+font-weight: bolder;
+}
+.Avatar{
+  margin-top: 1rem;
+}
+.span{
+color: blue;
+}
+
+
+
+.Search{
+  height: 2rem;
+  width: 17rem;
+  border-radius: 0.50rem;
+}
+
+.CoursesTab{
+
+  text-align: center;
+}
+.Courses{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Course{
+  margin-left: 15%;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.Login{
+  display:  flex;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+/*suign*/
+
+.signup-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-group small {
+  color: red;
+  font-size: 12px;
+}
+
+button {
+ 
+  padding: 12px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+/*login*/
+/* Login.css */
+
+
+
+.login-container {
+  background-color: #fff;
+  padding: 2rem;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-group small {
+  color: red;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #6366f1;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4f46e5;
+}
+
+.signup-link {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+.profile{
+  
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+}
+.profile-img img{
+  margin-left: 2rem;
+  height: 15rem;
+  width: 14rem;
+  border-radius: 30%;
+}
+.create-form input{
+  display: flex !important;
+  justify-content: center !important;
+  width: 50% !important;
+  margin-left: 5rem !important;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  background: white;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.cardContent {
+  padding: 15px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.featureList {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 0.9rem;
+}
+.card{
+  margin: 5rem 5rem 5rem 5rem;
+  background-color:#fff;
+  max-width: 90%;
+  
+  height: 100rem;
+  display: flex;
+  flex-direction: column;
+}
+.card-image{
+  height: 17rem;
+  max-width: 50%;
+  min-width: 50%;
+}
+.card-top{
+  display: flex;
+  
+  height: 10rem;
+}
+.text{
+ 
+font-weight: 500;
+margin-left: 3rem;
+}
+.card-title{
+  display: flex;
+  flex-direction: column;
+margin-left: 7%;
+}
+.signUpPage{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.loginPage{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+@media (max-width:400px) {
+  .text{
+    font-size:small;
+  }
+  .card-image{
+    max-width: 100%;
+  }
+  .card-top{
+    flex-direction: column !important;
+  }
+  .card{
+    margin-left: 1rem;
+  }
+  .card-top button{
+    height: 3rem;
+    width: 6rem;
+  }
+  .Hero-text {
+    font-size: small;
+  }
+  .Hero-text h1{
+    font-size: x-small;
+  }
+  .Hero{
+    flex-direction: column;
+    height: 90rem;
+  }.profile-note{
+    font-size: smaller;
+  }
+  .Course{
+  margin-left: 4%;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.Hero{
+
+  height: 60rem !important;
+}
+.Hero-text h1{
+  font-size: 35px !important;
+}
+.Hero-text{
+  width: 100%;
+  margin-top: 2rem !important;
+  text-align: center;
+  margin-left: 5rem;
+  font-weight: bolder;
+}
+.Hero-text p{
+  font-size: 20px !important;
+
+}
+.photo{
+width:32rem;
+margin-top: 1.50rem;
+
+}
+}
+.footer{
+  color: orangered;
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+  background-color: #F0C1E1;
+  max-width: 100%;
+  padding-top: 3rem;
+
+ margin-top: 8rem;
+  bottom: 0;
+  width: 100%;
+}
+.profile-note{
+  margin: 2rem 3rem 2rem 2rem;
+  background-color:whitesmoke;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 2%;
+}
+.Hero{
+  display: flex;
+  
+  background-color:#CB9DF0;
+  width: 100%;
+  height: 43rem;
+}
+.Hero-text h1{
+  font-size: 40px;
+}
+.Hero-text p{
+  font-size: 20px;
+}
+.Hero-text{
+  color: white;
+  display: flex;
+text-align: center;
+
+width: 50%;
+margin-top: 15rem;
+}
+.Hero-text span{
+  color:black;
+}
+.photo img{
+width: 80%;
+
+}
+.nav-item a{
+text-decoration: none;
+color: black;
+margin-left: 0.50rem;
+font-size: larger;
+}
