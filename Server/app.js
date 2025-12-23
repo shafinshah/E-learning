@@ -18,8 +18,8 @@ const CourseModel = require("./models/courses");
 const bodyParser = require("body-parser");
 
 dot.config().parsed;
-const AtlasUrl = process.env.AtlasUrl;
-const atlas = "mongodb+srv://shafinshah22:Shafin@123@cluster0.cj89o4y.mongodb.net/?appName=Cluster0";
+
+const at = 'mongodb+srv://shafinshah22_db_user:pQPZP3JG0V3RaYFh@cluster0.cj89o4y.mongodb.net/?appName=Cluster0';
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/E-learning";
 
@@ -34,7 +34,7 @@ main()
 })
 
 async function main() {
-    await mongoose.connect(atlas);
+    await mongoose.connect(at);
     
 }
 
