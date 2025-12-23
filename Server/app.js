@@ -103,10 +103,10 @@ CourseModel.find()
     .catch(err => res.json(err));
 })
 
-app.get("/Courses/:id",(req,res)=>{
+app.get("/Courses/:id",async(req,res)=>{
     let {id}= req.params;
   
-    CourseModel.findById(id)
+     await CourseModel.findById(id)
     
     .then(course => res.json(course))
     .catch(err => res.json(err));
