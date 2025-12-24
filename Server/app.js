@@ -98,7 +98,7 @@ res.json(err);
 })
 
 app.get("/Courses",async(req,res)=>{
-CourseModel.find()
+await CourseModel.find()
 .then(couses => res.json(couses))
     .catch(err => res.json(err));
 })
@@ -136,7 +136,7 @@ user.save();
 app.get("/user/:Email",async(req,res)=>{
 let {Email} = req.params;
     console.log("app emailS   "+ Email);
-        UserModel.findOne({username: Email}).
+       await UserModel.findOne({username: Email}).
 then((user)=>{ 
         res.json(user)
    
